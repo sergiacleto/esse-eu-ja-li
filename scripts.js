@@ -1,17 +1,29 @@
-fetch('data/livros.json')
-  .then(response => response.json())
-  .then(livros => {
-    const listaLivros = document.getElementById('livros');
+// Função para verificar o hash da senha
+function verificarSenha(senha, hash) {
+  // Neste exemplo, estamos usando a biblioteca bcrypt para comparar o hash
+  const bcrypt = require('bcrypt');
+  return bcrypt.compare(senha, hash);
+}
 
-    livros.forEach(livro => {
-      const li = document.createElement('li');
-      li.innerHTML = `
-        <strong>${livro.titulo}</strong><br>
-        Autor: ${livro.autor}<br>
-        Gênero: ${livro.genero}<br>
-        Lido: ${livro.lido ? 'Sim' : 'Não'}
-      `;
-      listaLivros.appendChild(li);
-    });
-  });
+// Função para realizar o login
+async function realizarLogin(usuario, senha) {
+  const response = await fetch('data/usuarios.json');
+  const usuarios = await response.json();
+
+  if (usuarios[usuario]) {
+    const senhaHash = usuarios[usuario];
+    if (await verificarSenha(senha, senhaHash)) {
+      // Login bem-sucedido
+      console.log('Login bem-sucedido!');
+      // Aqui você pode redirecionar para outra página ou habilitar funcionalidades
+    } else {
+      console.log('Senha incorreta.');
+    }
+  } else {
+    console.log('Usuário não encontrado.');
+  }
+}
+
+// Exemplo de uso
+realizarLogin('user1', 'password');
    
