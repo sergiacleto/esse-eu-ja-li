@@ -1,0 +1,3 @@
+{
+  "user1": "$2b$10$fW812lC1o/G/U4.X5z7Zueu.R.tfaQqgX8MMDxz.C/6.cwN2X3.O2" // senha "password" hash usando bcrypt
+}
