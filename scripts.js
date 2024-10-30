@@ -88,3 +88,32 @@ async function main() {
 }
 
 main();
+
+// Função para mostrar ou esconder o formulário de login e a lista de livros
+function mostrarLivros(mostrar) {
+  const loginForm = document.getElementById('login-form');
+  const livrosContainer = document.getElementById('livros-container');
+  loginForm.style.display = mostrar ? 'none' : 'block';
+  livrosContainer.style.display = mostrar ? 'block' : 'none';
+}
+
+// Adicionar evento de clique ao botão de login
+const btnLogin = document.getElementById('btn-login');
+btnLogin.addEventListener('click', async () => {
+  const usuario = document.getElementById('usuario').value;
+  const senha = document.getElementById('senha').value;
+
+  // Validar se os campos estão preenchidos
+  if (!usuario || !senha) {
+    alert('Por favor, preencha todos os campos.');
+    return;
+  }
+
+  // ... (código de login)
+
+  if (loginBemSucedido) {
+    mostrarLivros(true);
+    // ... (restante do código)
+  }
+});
+
