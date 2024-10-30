@@ -1,0 +1,13 @@
+[
+  {"titulo": "A Cidade das Estrelas", "autor": "Elara Vesper", "genero": "Ficção Científica", "ano": 2042, "descricao": "Em um futuro distópico, uma jovem descobre uma conspiração intergaláctica.", "lido": false, "avaliacao": 0},
+  {"titulo": "A Sombra do Dragão", "autor": "Kael Thorn", "genero": "Fantasia", "ano": 1998, "descricao": "Um jovem guerreiro embarca em uma jornada épica para salvar seu reino.", "lido": false, "avaliacao": 0},
+  {"titulo": "O Jardim Secreto", "autor": "Elara Stone", "genero": "Romance", "ano": 2021, "descricao": "Uma história de amor proibido em um mundo pós-apocalíptico.", "lido": false, "avaliacao": 0},
+  {"titulo": "O Código da Vida", "autor": "Aiden Thorne", "genero": "Thriller", "ano": 2015, "descricao": "Um cientista descobre uma cura para todas as doenças, mas enfrenta uma conspiração global.", "lido": false, "avaliacao": 0},
+  {"titulo": "A Ilha Perdida", "autor": "Mara Silva", "genero": "Aventura", "ano": 2018, "descricao": "Um grupo de amigos embarca em uma aventura para encontrar um tesouro perdido.", "lido": false, "avaliacao": 0},
+  // ... continue adicionando mais livros aqui ...
+  {"titulo": "O Enigma do Tempo", "autor": "Elias Novaes", "genero": "Ficção Científica", "ano": 2035, "descricao": "Um cientista descobre como viajar no tempo e as consequências de suas ações.", "lido": false, "avaliacao": 0},
+  {"titulo": "A Canção da Floresta", "autor": "Anya Silva", "genero": "Fantasia", "ano": 2002, "descricao": "Uma jovem com poderes mágicos precisa salvar a floresta de uma antiga maldição.", "lido": false, "avaliacao": 0},
+  {"titulo": "O Amor em Tempos de Cólera", "autor": "Sofia Mendes", "genero": "Romance", "ano": 2023, "descricao": "Uma história de amor que atravessa décadas e desafios.", "lido": false, "avaliacao": 0},
+  {"titulo": "A Trama do Assassinato", "autor": "Benito Cruz", "genero": "Thriller", "ano": 2017, "descricao": "Um detetive investiga uma série de assassinatos em uma pequena cidade.", "lido": false, "avaliacao": 0},
+  {"titulo": "O Mapa do Tesouro", "autor": "Clara Santos", "genero": "Aventura", "ano": 2019, "descricao": "Um grupo de piratas embarca em uma aventura para encontrar um mapa misterioso.", "lido": false, "avaliacao": 0}
+]
