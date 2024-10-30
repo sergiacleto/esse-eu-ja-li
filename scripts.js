@@ -1,3 +1,9 @@
+fetch('data/livros.json')
+  .then(response => response.json())
+  .then(livros => {
+    // ... resto do código
+  });
+
 // Dados simulados
 const users = [
     { username: "user1", password: "password", points: 10, trophies: "Leitor de Ficção Científica" }
