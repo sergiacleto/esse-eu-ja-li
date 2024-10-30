@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Minha Biblioteca</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <title>Minha Biblioteca</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Minha Biblioteca</h1>
+  <div id="login-form">
+    <h2>Login</h2>
+    <input type="text" id="usuario" placeholder="Usuário">
+    <input type="password" id="senha" placeholder="Senha">
+    <button id="btn-login">Entrar</button>
+  </div>
+  <div id="livros-container" style="display: none;">
+    <h2>Meus Livros</h2>
     <ul id="livros"></ul>
-    <script src="js/script.js"></script>
+    <div id="pontuacao"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
